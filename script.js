@@ -22,5 +22,5 @@ popup = window.open(
 
 if (token) {
   window.opener.spotifyCallback(token)
-  popup.close()
+  
 }
