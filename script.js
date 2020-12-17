@@ -19,8 +19,10 @@ popup = window.open(
     })
   }
   token = window.location.hash.substr(1).split('&')[0].split("=")[1]
+  console.log(token)
+  popup.close()
 
-if (token) {
-  window.opener.spotifyCallback(token)
+//if (token) {
+ // window.opener.spotifyCallback(token)
   
-}
+//}
