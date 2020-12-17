@@ -14,6 +14,7 @@ popup = window.open(
     }).then(response => {
       return response.json()
     }).then(data => {
+        console.log(data)
       // do something with data
     })
   }
